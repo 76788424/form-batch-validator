@@ -4,7 +4,8 @@
   "description": "",
   "main": "lib/validator.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "node demo/demo.js"
   },
   "author": "hyb",
   "license": "MIT",
