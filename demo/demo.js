@@ -155,15 +155,15 @@ const rules6 = {
 
 // 时间
 const rules7 = {
-  f: {
+  e: {
     label: '时间',
-    rules: { type: 'time' }
+    rules: { type: 'time', ignoreEmpty: true }
   }
 }
 
 // 日期时间
 const rules8 = {
-  d: {
+  f: {
     label: '日期时间',
     rules: { type: 'datetime' }
   }
@@ -171,7 +171,7 @@ const rules8 = {
 
 // email
 const rules9 = {
-  e: {
+  g: {
     label: '邮箱',
     rules: { type: 'email' }
   }
@@ -179,7 +179,7 @@ const rules9 = {
 
 // url
 const rules10 = {
-  f: {
+  h: {
     label: 'url',
     rules: { type: 'url' }
   }
@@ -187,7 +187,7 @@ const rules10 = {
 
 // mobile
 const rules11 = {
-  g: {
+  i: {
     label: '手机',
     rules: { type: 'mobile' }
   }
@@ -195,7 +195,7 @@ const rules11 = {
 
 // range
 const rules12 = {
-  h: {
+  j: {
     label: '大小范围',
     rules: { type: 'range', rules: ['>', 6] }
   }
@@ -213,13 +213,13 @@ const obj = {
   a: 123,
   b: 456.34,
   c: '159905733672',
-  d: '2018-4-3',
-  f: '23:15:13',
-  d: '2018-06-01 15:55:01',
-  e: '76788424@qq.com',
-  f: 'https://www.baidu.com',
-  g: 15990573367,
-  h: 7
+  d: '2018-11-0',
+  e: '23:15:1',
+  f: '2018-06-01 15:55:01',
+  g: '76788424@qq.com',
+  h: 'https://www.baidu.com',
+  i: 15990573367,
+  j: 7
 }
 
 //console.log(rules);
