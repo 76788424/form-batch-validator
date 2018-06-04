@@ -1,11 +1,21 @@
 {
   "name": "form-batch-validator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "lib/validator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "demo": "node demo/demo.js"
+  },
+  "homepage": "https://github.com/76788424/form-batch-validator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/76788424/form-batch-validator.git",
+    "web": "https://github.com/76788424/form-batch-validator"
+  },
+  "bugs": {
+    "url": "https://github.com/76788424/form-batch-validator/issues",
+    "email": "76788424@qq.com"
   },
   "author": "hyb",
   "license": "MIT",
