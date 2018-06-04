@@ -174,7 +174,7 @@ const rules = {
 ```
 
 ### rangeValidator
-- 大小验证器，只能配合 numberValidator 来使用，如果被验证字段不是上诉类型将抛出异常
+- 大小验证器，只能配合 intValidator、numberValidator 来使用，如果被验证字段不是上诉类型将抛出异常
 - 必须要定义 rules 数组，rules[0]定义判断类型，rules[1]定义下限，rules[2]定义上限，rules[1]、rules[2]都是闭区间
 - rules[0] 取值有 \~、>、>=、=、<、<=，\~ 表示区间
 ```js
