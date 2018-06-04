@@ -128,7 +128,7 @@ const rules = {
 ```
 
 ### intValidator
-- 整型验证器，通常可以配合大小验证器
+- 整型验证器
 ```js
 const rules = {
   age: {
