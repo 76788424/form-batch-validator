@@ -201,6 +201,13 @@ const rules12 = {
   }
 }
 
+const rules13 = {
+  k: {
+    label: '必填',
+    rules: [ { type: 'required' }, { type: 'array' } ]
+  }
+}
+
 const obj = {
   gender: 'male1',
   password: 'hyb12345612312312',
@@ -219,9 +226,10 @@ const obj = {
   g: '76788424@qq.com',
   h: 'https://www.baidu.com',
   i: 15990573367,
-  j: 7
+  j: 7,
+  k: []
 }
 
 //console.log(rules);
-let res = validator.validate(rules, obj);
+let res = validator.validate(rules13, obj);
 console.log(res);
