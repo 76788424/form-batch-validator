@@ -84,22 +84,22 @@ const rules = {
 ```
 
 ## 内置验证器
-- requiredValidator
-- stringValidator
-- intValidator
-- numberValidator
-- inValidator
-- lengthValidator
-- rangeValidator
-- regexValidator
-- dateValidator
-- timeValidator
-- datetimeValidator
-- emailValidator
-- urlValidator
-- mobileValidator
-- objectValidator
-- arrayValidator
+- [requiredValidator](#requiredvalidator)
+- [stringValidator](#stringvalidator)
+- [intValidator](#intvalidator)
+- [numberValidator](#numbervalidator)
+- [inValidator](#invalidator)
+- [lengthValidator](#lengthvalidator)
+- [rangeValidator](#rangevalidator)
+- [regexValidator](#regexvalidator)
+- [dateValidator](#datevalidator)
+- [timeValidator](#timevalidator)
+- [datetimeValidator](#datetimevalidator)
+- [emailValidator](#emailvalidator)
+- [urlValidator](#urlvalidator)
+- [mobileValidator](#mobilevalidator)
+- [objectValidator](#objectvalidator)
+- [arrayValidator](#arrayvalidator)
 
 ### requiredValidator
 - 必填验证器
